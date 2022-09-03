@@ -1,0 +1,30 @@
+.add-form{
+      width: 50%;
+      margin:10rem auto;
+}
+
+.form-group label {
+      text-transform: uppercase;
+      color: #CA4F6E;
+}
+
+textarea {
+      margin: 0;
+      width: 95%;
+      border: 0;
+      outline: none;
+      height: 8rem;
+      border-radius: 10px;
+      padding: 1rem;
+
+}
+
+@media screen and (max-width: 600px){
+      .add-form{
+            width: 95%;
+      }
+}
+
+#image{
+      background-color: #CA4F6E;
+}

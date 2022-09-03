@@ -1,0 +1,29 @@
+.signup-form{
+      width: 50%;
+      margin:10rem auto;
+}
+
+.image-preview{
+      width: inherit;
+
+}
+.image-preview img {
+      margin: 1rem auto;
+      width: 50%;
+}
+
+@media screen and (max-width: 600px){
+      .signup-form{
+            width: 95%;
+      }
+    
+}
+
+code{
+      color: crimson;
+}
+
+#user-pic{
+      background-color: #CA4F6E;
+      cursor: pointer;
+}

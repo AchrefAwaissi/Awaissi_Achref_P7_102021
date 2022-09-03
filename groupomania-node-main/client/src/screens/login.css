@@ -1,0 +1,50 @@
+.login-form{
+      width: 50%;
+      margin:10rem auto;
+}
+
+.form-group{
+text-align: center;
+}
+
+h3{
+      color: antiquewhite;
+}
+label {
+      font-size: 1.5rem;
+      margin: .5rem 0;
+      font-weight: 700;
+      color: rgb(218, 212, 137);
+      cursor: pointer;
+}
+.form-group label ,input {
+      width: 95%;
+      display: block;
+      border: none;
+      padding: .8rem 1rem;
+      border-radius: 5px;
+      
+}
+button {
+
+      display: block;
+      margin: 2rem auto;
+      border: none;
+      padding: .8rem 1rem;
+      border-radius: 5px;
+}
+
+::placeholder {
+      font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 600px){
+      .login-form{
+            width: 95%;
+      }
+      .form-group label ,input {
+            margin: auto;
+             width: 90%;
+      }
+}

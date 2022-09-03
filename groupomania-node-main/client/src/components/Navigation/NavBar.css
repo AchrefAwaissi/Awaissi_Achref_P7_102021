@@ -1,0 +1,116 @@
+/* 
+    navbar__container ==> Div Parent bar de navigation
+    logo => class logo Groupomania
+*/
+
+
+.navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: bgAnimation 20s ease infinite;
+   
+    height: 75px;
+    padding: 0 1rem;
+}
+
+.logo {
+   font-size: 1.3rem;
+}
+.logo img {
+    cursor: pointer;
+}
+
+
+.logo span{
+    color: #45cc33;
+    font-family: 'Big Shoulders Stencil Text';
+    font-size: 1.3rem;
+}
+
+.navigation {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navigation ul li a {
+    font-size: 1.2rem;
+    color: #e6dede;
+    font-weight: bold;
+}
+
+.navigation ul li{
+    transition: .3s;
+}
+.navigation ul li:hover{
+    transform: scale(1.20);
+}
+
+.navigation ul li a:hover{
+    color: #1d11ca;
+}
+
+
+.logout-btn{
+    display: inline;
+    margin: 0;
+    background-color: chartreuse;
+    border: none;
+    padding: 1rem 0;
+}
+.fa-sign-out-alt{
+    color: #1B1E3D;
+    cursor: pointer;
+    margin-top: .2rem;
+}
+
+
+.red {
+    color:  crimson;
+}
+.fa-bars{
+    display: none;
+}
+
+@keyframes bgAnimation {
+    from {
+       background-color:  #ca4f6e;
+    }
+    50%{
+      background-color:  #ca4f6e; 
+    }
+    to{
+        background-color:   #ca4f6e;
+    }
+}
+@media screen and (max-width: 800px){
+  
+    .fa-bars{
+        display: inline;
+    }
+   
+  .logo , .logo span {
+      font-size: 1rem;
+  }
+  .navigation {
+      display: none;
+  }
+  .navigation ul li a{
+      font-size: .65rem;
+  }
+  .navigation {
+      width: 88%;
+      justify-content: space-between;
+  }
+
+  .logo a img {
+      width: 10rem;
+  }
+}
